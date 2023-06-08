@@ -9,30 +9,24 @@ let tele = document.querySelectorAll(".tele");
 let cam = document.querySelectorAll(".cam")
 let pc = document.querySelectorAll(".pc")
 let acs = document.querySelectorAll(".acs")
-// let alls = document.querySelector(".category-content");
-// let alll = document.querySelectorAll(".cat");
-// let compp = document.querySelectorAll(".comp");
-
 
 
 telefonbuton.addEventListener("click", () => {
-    console.log("merhaba");
+   
 
     for (let i = 0; i < tele.length; i++) {
-        //  tele[i].style.display = "none";
-        // tele[i].style.position = "relative";
-        // tele[i].style.display = "flex";
+        
         tele[i].style.display = "block";
     }
 
     for (let i = 0; i < cam.length; i++) {
-        // cam[i].style.visibility = "hidden";
+        
         cam[i].style.display = "none";
 
     }
     for (let i = 0; i < pc.length; i++) {
         pc[i].style.display = "none";
-        // pc[i].style.visibility = "hidden";
+       
 
 
     }
@@ -45,25 +39,21 @@ telefonbuton.addEventListener("click", () => {
 })
 
 compbuton.addEventListener("click", () => {
-    console.log("merhaba");
+    
 
     for (let i = 0; i < pc.length; i++) {
-        //  tele[i].style.display = "none";
-        // tele[i].style.position = "relative";
-        // tele[i].style.display = "flex";
+       
         pc[i].style.display = "block";
     }
 
     for (let i = 0; i < cam.length; i++) {
-        // cam[i].style.visibility = "hidden";
+        
         cam[i].style.display = "none";
 
     }
     for (let i = 0; i < tele.length; i++) {
         tele[i].style.display = "none";
-        // pc[i].style.visibility = "hidden";
-
-
+       
     }
     for (let i = 0; i < acs.length; i++) {
         acs[i].style.display = "none";
@@ -75,25 +65,21 @@ compbuton.addEventListener("click", () => {
 
 
 cambuton.addEventListener("click", () => {
-    console.log("merhaba");
+
 
     for (let i = 0; i < cam.length; i++) {
-        //  tele[i].style.display = "none";
-        // tele[i].style.position = "relative";
-        // tele[i].style.display = "flex";
+     
         cam[i].style.display = "block";
     }
 
     for (let i = 0; i < pc.length; i++) {
-        // cam[i].style.visibility = "hidden";
+      
         pc[i].style.display = "none";
 
     }
     for (let i = 0; i < tele.length; i++) {
         tele[i].style.display = "none";
-        // pc[i].style.visibility = "hidden";
-
-
+        
     }
     for (let i = 0; i < acs.length; i++) {
         acs[i].style.display = "none";
@@ -105,23 +91,20 @@ cambuton.addEventListener("click", () => {
 
 
 aksesuarbuton.addEventListener("click", () => {
-    console.log("merhaba");
-
+  
     for (let i = 0; i < acs.length; i++) {
-        //  tele[i].style.display = "none";
-        // tele[i].style.position = "relative";
-        // tele[i].style.display = "flex";
+      
         acs[i].style.display = "block";
     }
 
     for (let i = 0; i < pc.length; i++) {
-        // cam[i].style.visibility = "hidden";
+       
         pc[i].style.display = "none";
 
     }
     for (let i = 0; i < tele.length; i++) {
         tele[i].style.display = "none";
-        // pc[i].style.visibility = "hidden";
+       
 
 
     }
@@ -136,21 +119,18 @@ aksesuarbuton.addEventListener("click", () => {
 tümünügöster.addEventListener("click", () => {
 
     for (let i = 0; i < acs.length; i++) {
-        //  tele[i].style.display = "none";
-        // tele[i].style.position = "relative";
-        // tele[i].style.display = "flex";
+
         acs[i].style.display = "block";
     }
 
     for (let i = 0; i < pc.length; i++) {
-        // cam[i].style.visibility = "hidden";
+   
         pc[i].style.display = "block";
 
     }
     for (let i = 0; i < tele.length; i++) {
         tele[i].style.display = "block";
-        // pc[i].style.visibility = "hidden";
-
+     
 
     }
     for (let i = 0; i < cam.length; i++) {
